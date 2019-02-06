@@ -68,9 +68,7 @@ ITEM_PIPELINES = {
     'scrapy.pipelines.images.ImagesPipeline': 1
 }
 
-IMAGES_STORE = {
-    '/home/jaki/Dev/WebScrapingScratch/images'
-}
+IMAGES_STORE = '/home/jaki/Dev/WebScrapingScratch/images'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
